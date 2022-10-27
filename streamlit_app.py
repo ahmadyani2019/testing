@@ -130,3 +130,19 @@ def demo():
     else:
         path_in = None
         st.stop()
+
+# Notes about the app -------------------------------------------------
+
+
+with st.expander("ℹ️ - About this app", expanded=False):
+
+    st.write(
+        """     
+Aplikasi ini hanyalah sebagai model AI yang akan dikembangkan selanjutnya. Diajukan untuk memenuhi salah satu syarat tugas mata kuliah Praktik Kerja Lapangan (PKL)
+	    """
+    )
+
+    st.markdown("")
+
+if __name__ == "__main__":
+    main()
