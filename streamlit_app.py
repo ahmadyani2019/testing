@@ -86,11 +86,13 @@ def demo():
             bytes_data = f.getvalue()
 
             # Load your API key from an environment variable or secret management service
-            api_token = st.secrets["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"]
+            #api_token = st.secrets["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"]
 
             # endregion API key
-            headers = {"Authorization": f"Bearer {api_token}"}
+
             API_URL = "https://api-inference.huggingface.co/models/indonesian-nlp/wav2vec2-large-xlsr-indonesian"
+            headers = {
+                "Authorization": f"Bearer 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"}
 
             def query(data):
                 response = requests.request(
