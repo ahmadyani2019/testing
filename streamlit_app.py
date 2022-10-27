@@ -86,7 +86,7 @@ def demo():
             bytes_data = f.getvalue()
 
             # Load your API key from an environment variable or secret management service
-            api_token = st.secrets["api_token"]
+            api_token = st.secrets["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"]
 
             # endregion API key
             headers = {"Authorization": f"Bearer {api_token}"}
@@ -130,9 +130,3 @@ def demo():
     else:
         path_in = None
         st.stop()
-
-# Add -------------------------------------------------
-
-
-if __name__ == "__main__":
-    main()
