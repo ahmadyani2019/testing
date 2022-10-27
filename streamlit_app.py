@@ -130,3 +130,7 @@ def demo():
     else:
         path_in = None
         st.stop()
+
+
+if __name__ == "__main__":
+    main()
