@@ -4,12 +4,12 @@ import streamlit as st
 import requests
 import json
 import os
-from pytube import YouTube
-import librosa
-import soundfile as sf
-import torch
-from transformers import Wav2Vec2ForCTC, Wav2Vec2Tokenizer
-from pydub import AudioSegment
+#from pytube import YouTube
+#import librosa
+#import soundfile as sf
+#import torch
+#from transformers import Wav2Vec2ForCTC, Wav2Vec2Tokenizer
+#from pydub import AudioSegment
 
 # Mengatur judul dan ikon pada situs Streamlit ------------------------------------------------------------
 
