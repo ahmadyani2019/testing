@@ -1,3 +1,11 @@
 requests
 streamlit
 SpeechRecognition
+json
+os
+pytube
+librosa
+soundfile
+torch
+transformers
+pydub
